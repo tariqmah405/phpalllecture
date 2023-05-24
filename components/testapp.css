@@ -1,0 +1,34 @@
+h1{
+    font-size: 30px;
+    color: cadetblue;
+}
+.main {
+    display: flex;
+}
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+.grid3 .box {
+    border: solid 1px #000;
+    width: 300px;
+    height: 200px;
+    background: #f95858;
+    border-radius: 20px 0px 20px 0px;
+}
+.grid3 .box h3, p {
+    font-size: 20px;
+    font-weight: 500;
+    color: blue;
+}
+.grid3 .box button {
+    width: 150px;
+    height: 40px;
+    background: aqua;
+    color: blueviolet;
+    border: none;
+    outline: none;
+}

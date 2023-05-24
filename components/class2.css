@@ -1,0 +1,44 @@
+ 
+.mainform {
+    margin: 0 auto;
+    width: 300px;
+    height: 430px;
+    border: solid 2px rgb(95, 91, 91);
+    border-radius: 20px 0px 20px 0px;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.mainform .title {
+    width: 100%;
+    height: 80px;
+    background: rgb(10, 239, 13);
+    padding: 0px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mainform span {
+    margin: 10px 10px;
+} 
+.mainform input {
+    padding: 10px;
+    margin: 15px 4px;
+    width: 250px;
+}
+
+
+.header {
+    width: 100%;
+    height: 100px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    background: #000;
+}
+
+.header .nav ul{
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    list-style-type: none;
+}
